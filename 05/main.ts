@@ -1,6 +1,5 @@
 import path from 'path'
 import fs from 'fs'
-import { arrayBuffer } from 'stream/consumers'
 
 const text = fs.readFileSync(path.join(__dirname, './input.txt'), 'utf-8')
 const textArray = text.split('\n')
